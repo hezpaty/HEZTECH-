@@ -25,7 +25,7 @@ yellow() { echo -e "\\033[33;1m${*}\\033[0m"; }
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 # domain random
-#CDN="https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/ssh"
+#CDN="https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ssh"
 cd /root
 #System version number
 if [ "${EUID}" -ne 0 ]; then
@@ -121,11 +121,10 @@ echo ""
 clear
 echo -e "$BBlue                          NT SETUP SUBDOMAIN VPS     $NC"
 echo -e "$BYellow-------------------------------------------------------------------$NC"
-echo -e "$BYellow Pastikan Subdomain sudah pointing dengan ip vps di cloudflare $NC"
 echo -e "$BYellow Make sure the Subdomain is pointing with the ip vps on cloudflare $NC"
 echo -e "$BYellow-------------------------------------------------------------------$NC"
-#echo -e "$BGreen 1. Use Domain Random / Gunakan Domain Random $NC"
-#echo -e "$BGreen 2. Choose Your Own Domain / Gunakan Domain Sendiri $NC"
+#echo -e "$BGreen 1. Use Random Domain $NC"
+#echo -e "$BGreen 2. Choose Your Own Domain $NC"
 #echo -e "$BYellow----------------------------------------------------------$NC"
 #read -rp " input 1 or 2 / pilih 1 atau 2 : " dns
 #if test $dns -eq 1; then
@@ -137,7 +136,7 @@ echo -e "$BYellow---------------------------------------------------------------
 #print_success "Domain Random Done"
 #elif test $dns -eq 2; then
 echo ""
-read -rp "Enter Your Subdomain / Masukan Subdomain : " dom
+read -rp "Enter Your Subdomain : " dom
 echo "IP=$dom" > /var/lib/ipvps.conf
 echo "$dom" > /root/scdomain
 echo "$dom" > /etc/xray/scdomain
@@ -154,15 +153,15 @@ echo -e "$BGreen      Install NT SSH Websocket           $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh
 #Instal Xray
 echo -e "\e[33m-----------------------------------\033[0m"
 echo -e "$BGreen          Install NT XRAY              $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
@@ -201,7 +200,7 @@ if [ ! -f "/etc/log-create-shadowsocks.log" ]; then
 echo "Log Shadowsocks Account " > /etc/log-create-shadowsocks.log
 fi
 history -c
-serverV=$( curl -sS https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/menu/versi  )
+serverV=$( curl -sS https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/menu/versi  )
 echo $serverV > /opt/.ver
 aureb=$(cat /home/re_otm)
 b=11
@@ -249,7 +248,7 @@ echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
 echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
 echo ""
 echo "=============================Contact==============================" | tee -a log-install.txt
-echo "---------------------------t.me/networktweakerop-----------------------------" | tee -a log-install.txt
+echo "-------------------------WA--0746962422-----------------------------" | tee -a log-install.txt
 echo "==================================================================" | tee -a log-install.txt
 echo -e ""
 echo ""
