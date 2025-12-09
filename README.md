@@ -1,4 +1,4 @@
-# NETWORK𓆩×͜×𓆪‎⇶☞❈✿┋₮ó𝔭թļ𝓊ɠ⠀ᥫ᭡፝֟፝֟𓆩×͜×𓆪‎🤿😹😹
+# DEDICATED WORK OF HEZPATY 🎉🎉🫶
 # Directly install without the need to register an IP VPS 
 
 # Order from me (MUST READ) before using
@@ -36,7 +36,7 @@
 <br>
 
 # Pointing
-![Pointing](https://github.com/Hubdarkweb/Lenin/blob/master/image/pointing.png)
+![Pointing](https://github.com/hezpaty/HEZTECH-/blob/main/image/pointing.png)
 
 ## Service & Port:
 <br>
@@ -73,9 +73,9 @@
 - no auto backup? which... is permanently removed
 - Just accept the existing features / you can add them yourself manually
 - Additional Features (Optional) skipper (NOTE) install after [Step Install] is complete
-- Optional [install OpenVPN + Slowdns +](https://github.com/Hubdarkweb/Lenin/tree/master/udp-custom) UDP-Custom by [Exe302](https://gitlab.com/Exe302) + Slowdns by [SL](https://github.com/fisabiliyusri)
-- Optional [install Panel Webmin + ADS Block](https://github.com/Hubdarkweb/Lenin/tree/master/helium) Helium version 3.0 by [Abi Darwish](https://github.com/abidarwish)
-- Optional [install Bot Telegram Xolpanel](https://github.com/Hubdarkweb/Lenin/tree/master/bot%20telegram%20panel) by [XolvaID](https://github.com/XolvaID)
+- Optional [install OpenVPN + Slowdns +](https://github.com/hezpaty/HEZTECH-/tree/main/udp-custom) UDP-Custom by [Exe302](https://gitlab.com/Exe302) + Slowdns by [SL](https://github.com/fisabiliyusri)
+- Optional [install Panel Webmin + ADS Block](https://raw.githubusercontent.com/hezpaty/HEZTECH-/helium) Helium version 3.0 by [Abi Darwish](https://github.com/abidarwish)
+- Optional [install Bot Telegram Xolpanel](https://raw.githubusercontent.com/hezpaty/tree/bot%20telegram%20panel) by [XolvaID](https://github.com/XolvaID)
   
 # Menu
 ![Service Status](https://github.com/Hubdarkweb/Lenin/blob/master/image/menu1.png)
