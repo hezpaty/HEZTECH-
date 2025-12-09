@@ -111,11 +111,11 @@ echo
 # ===================== ACCOUNT STATUS =====================
 neon "💼 ACCOUNT STATUS"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
-echo -e "${green} SSH/OPENVPN     ${reset}➤ 2 PREMIUM ACCOUNTS"
-echo -e "${green} VMESS/WS/GRPC   ${reset}➤ 0 PREMIUM ACCOUNTS"
-echo -e "${green} VLESS/WS/GRPC   ${reset}➤ 0 PREMIUM ACCOUNTS"
-echo -e "${green} TROJAN/WS/GRPC  ${reset}➤ 0 PREMIUM ACCOUNTS"
-echo -e "${green} SHADOWSOCKS/WS  ${reset}➤ 0 PREMIUM ACCOUNTS"
+echo -e "${green} SSH/OPENVPN     ${reset}➤ 2 PREMIUMS ACCOUNTS"
+echo -e "${green} VMESS/WS/GRPC   ${reset}➤ 0 PREMIUMS ACCOUNTS"
+echo -e "${green} VLESS/WS/GRPC   ${reset}➤ 0 PREMIUMS ACCOUNTS"
+echo -e "${green} TROJAN/WS/GRPC  ${reset}➤ 0 PREMIUMS ACCOUNTS"
+echo -e "${green} SHADOWSOCKS/WS  ${reset}➤ 0 PREMIUMS ACCOUNTS"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
 echo
 
