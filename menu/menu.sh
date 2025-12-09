@@ -1,5 +1,5 @@
 #!/bin/bash
-# CYBERPUNK TOpPLUG STORE PANEL — 2025 Terminal Edition ⚡
+# CYBERPUNK HEZTECH STORE PANEL — 2025 Terminal Edition ⚡
 
 # ===================== COLORS =====================
 red='\033[0;31m'
@@ -61,9 +61,12 @@ if [[ "$DISTRO" == "ubuntu" ]]; then
            _
        ---(_)
    _/  ---  \
-  (_) |   |
-    \  --- _/
+  (_) |   |  )
+    \. ---  /
        ---(_)
+           
+     
+      
 EOF
     echo -e "${reset}"
 elif [[ "$DISTRO" == "debian" ]]; then
@@ -81,7 +84,7 @@ EOF
 fi
 
 # ===================== HEADER =====================
-neon "🕹️  TOpPLUG CYBERPUNK STORE PANEL ⚡ 2025"
+neon "🕹️  HEZTECH CYBERPUNK STORE PANEL ⚡ 2025"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
 echo
 
@@ -111,16 +114,17 @@ echo
 # ===================== ACCOUNT STATUS =====================
 neon "💼 ACCOUNT STATUS"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
-echo -e "${green} SSH/OPENVPN     ${reset}➤ 2 PREMIUMS ACCOUNTS"
-echo -e "${green} VMESS/WS/GRPC   ${reset}➤ 0 PREMIUMS ACCOUNTS"
-echo -e "${green} VLESS/WS/GRPC   ${reset}➤ 0 PREMIUMS ACCOUNTS"
-echo -e "${green} TROJAN/WS/GRPC  ${reset}➤ 0 PREMIUMS ACCOUNTS"
-echo -e "${green} SHADOWSOCKS/WS  ${reset}➤ 0 PREMIUMS ACCOUNTS"
+echo -e "${green} SSH/OPENVPN     ${reset}➤ 2 PREMIUM ACCOUNTS"
+echo -e "${green} VMESS/WS/GRPC   ${reset}➤ 0 PREMIUM ACCOUNTS"
+echo -e "${green} VLESS/WS/GRPC   ${reset}➤ 0 PREMIUM ACCOUNTS"
+echo -e "${green} TROJAN/WS/GRPC  ${reset}➤ 0 PREMIUM ACCOUNTS"
+echo -e "${green} SHADOWSOCKS/WS  ${reset}➤ 0 PREMIUM ACCOUNTS"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
 echo
 
 # ===================== CYBERPUNK MENU =====================
-neon "🚀 TOpPLUG STORE MENU"
+neon "🚀 HEZTECH STORE MENU"
+echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
 echo -e "${purple}──────────────────────────────────────────────────────────────${reset}"
 echo -e "${yellow}[01]${reset} SSH / OVPN Menu           ${yellow}[09]${reset} Psiphon Manager"
 echo -e "${yellow}[02]${reset} Vmess Manager             ${yellow}[10]${reset} Zi-UDP Manager"
@@ -152,13 +156,13 @@ case $opt in
     12) clear; VERSION=v2.5.5 && bash <(curl -Ls "https://raw.githubusercontent.com/mhsanaei/3x-ui/$VERSION/install.sh") $VERSION ;;
     13) clear; bash -c "$(curl -sSL https://resource.1panel.pro/quick_start.sh)" ;;
     14) clear; rm -rf install; apt update; wget https://github.com/powermx/dnstt/raw/main/install; chmod +x install; ./install --start ;;
-    15) clear; apt update && apt install wget -y && wget -q -O /usr/bin/ins-helium "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/helium/ins-helium.sh" && chmod +x /usr/bin/ins-helium && ins-helium ;;
+    15) clear; apt update && apt install wget -y && wget -q -O /usr/bin/ins-helium "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/helium/ins-helium.sh" && chmod +x /usr/bin/ins-helium && ins-helium ;;
     16) clear; m-system ;;
     17) clear; reboot ;;
     18) clear; clearcache ;;
     19) clear; running ;;
     20) clear; menu-backup ;;
-    21) clear; wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/main/update.sh && chmod +x update.sh && ./update.sh ;;
-    22) echo -e "${red}Exiting TOpPLUG Panel... ⚡${reset}"; exit ;;
+    21) clear; wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/update.sh && chmod +x update.sh && ./update.sh ;;
+    22) echo -e "${red}Exiting HEZTECH Panel... ⚡${reset}"; exit ;;
     *) echo -e "${red}Invalid Option!${reset}"; sleep 2; clear; bash $0 ;;
 esac
