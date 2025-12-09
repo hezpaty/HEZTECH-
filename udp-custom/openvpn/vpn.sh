@@ -2,8 +2,8 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# (C) Copyright 2023
+# Auther  : HEZPATY 
+# (C) Copyright 2025
 # =========================================
 # initialisasi var
 export DEBIAN_FRONTEND=noninteractive
@@ -18,7 +18,7 @@ apt install openvpn easy-rsa unzip -y
 apt install openssl iptables iptables-persistent -y
 mkdir -p /etc/openvpn/server/easy-rsa/
 cd /etc/openvpn/
-wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/udp-custom/openvpn/vpn.zip
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/udp-custom/openvpn/vpn.zip
 unzip vpn.zip
 rm -f vpn.zip
 chown -R root:root /etc/openvpn/server/easy-rsa/
