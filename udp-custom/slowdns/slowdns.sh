@@ -1,9 +1,9 @@
 # =========================================
 # Quick Setup | Script Setup Manager
 # Edition : Stable Edition 1.0
-# Auther  : NETWORK TWEAKER 
-# CYBER NOVA & EREN YEAGER 
-# (C) Copyright 2023
+# Auther  : HEZPATY
+# Work of hez
+# (C) Copyright 2025
 # =========================================
 # pewarna hidup
 BGreen='\e[1;32m'
