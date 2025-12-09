@@ -154,8 +154,8 @@ echo -e "$BGreen          Install NT XRAY              $NC"
 echo -e "\e[33m-----------------------------------\033[0m"
 sleep 0.5
 clear
-wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
+wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/sshws/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
