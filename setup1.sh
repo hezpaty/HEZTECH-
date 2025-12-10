@@ -46,7 +46,7 @@ echo "2. Choose Your Own Domain"
 read -rp "Input 1 or 2: " dns
 if [ "$dns" -eq 1 ]; then
     # Download cf script and convert line endings
-    wget https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/ssh/cf
+    wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ssh/cf
     dos2unix cf
     bash cf
 elif [ "$dns" -eq 2 ]; then
@@ -63,15 +63,15 @@ else
 fi
 
 # Install services
-wget -q https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/ssh/ssh-vpn.sh
+wget -q https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ssh/ssh-vpn.sh
 dos2unix ssh-vpn.sh
 bash ssh-vpn.sh
 
-wget -q https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/ins-xray.sh
+wget -q https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/ins-xray.sh
 dos2unix ins-xray.sh
 bash ins-xray.sh
 
-wget -q https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/sshws/insshws.sh
+wget -q https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/sshws/insshws.sh
 dos2unix insshws.sh
 bash insshws.sh
 
@@ -113,15 +113,15 @@ echo " - Vless gRPC: 443"
 echo " - Trojan gRPC: 443"
 echo " - Shadowsocks gRPC: 443"
 echo "=================================================================="
-echo "Contact: t.me/networktweakerop"
+echo "Contact: t.me/hezpaty"
 echo "=================================================================="
 
 # Additional commands
 bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/Auto/main/dnsdisable.sh)
-wget -O /root/log-install.txt https://github.com/Hubdarkweb/Levin/raw/main/log-install.txt
+wget -O /root/log-install.txt https://github.com/hezpaty/HEZTECH-/raw/main/log-install.txt
 bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/NT-A.I.O/main/dropbearconfig.sh)
 bash <(curl -Ls https://github.com/lalfulsk/NT-A.I.O/raw/main/dropbear.sh)
-bash <(curl -Ls https://github.com/Hubdarkweb/Levin/raw/main/swap.sh)
+bash <(curl -Ls https://github.com/hezpaty/HEZTECH-/raw/main/swap.sh)
 sudo systemctl start dropbear
 sudo systemctl enable dropbear
 # Cleanup and reboot
