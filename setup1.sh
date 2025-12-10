@@ -118,10 +118,10 @@ echo "=================================================================="
 
 # Additional commands
 bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/Auto/main/dnsdisable.sh)
-wget -O /root/log-install.txt https://github.com/hezpaty/HEZTECH-/raw/main/log-install.txt
+wget -O /root/log-install.txt https://github.com/Hubdarkweb/Levin/raw/main/log-install.txt
 bash <(curl -Ls https://raw.githubusercontent.com/lalfulsk/NT-A.I.O/main/dropbearconfig.sh)
 bash <(curl -Ls https://github.com/lalfulsk/NT-A.I.O/raw/main/dropbear.sh)
-bash <(curl -Ls https://github.com/hezpaty/HEZTECH-/raw/main/swap.sh)
+bash <(curl -Ls https://github.com/Hubdarkweb/Levin/raw/main/swap.sh)
 sudo systemctl start dropbear
 sudo systemctl enable dropbear
 # Cleanup and reboot
