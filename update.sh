@@ -46,7 +46,7 @@ fun_bar() {
 }
 
 res1() {
-  wget -q https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/menu.zip -O /tmp/menu.zip
+  wget -q https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/menu/menu.zip -O /tmp/menu.zip
   unzip -o /tmp/menu.zip -d /tmp >/dev/null 2>&1
   chmod +x /tmp/menu/*
   mv /tmp/menu/* /usr/local/sbin/ 2>/dev/null || true
@@ -58,7 +58,7 @@ res1() {
 netfilter-persistent
 clear
 echo -e "\033[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1m          UPDATED SCRIPT POWERED BY 🗽📡🛰️⛷️🤿🎯💻 TOpNeT Cyberpunk    \e[0m"
+echo -e " \e[1m          UPDATED SCRIPT POWERED BY 🗽📡🛰️⛷️🤿🎯💻 HEZPATY Cyberpunk    \e[0m"
 echo -e "\033[36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e ""
 echo -e "  \033[m update script service\033[m"
