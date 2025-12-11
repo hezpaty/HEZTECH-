@@ -496,31 +496,31 @@ systemctl restart runn
 
 cd /usr/bin/
 # vmess
-wget -O add-ws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/add-ws.sh" && chmod +x add-ws
-wget -O trialvmess "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/trialvmess.sh" && chmod +x trialvmess
-wget -O renew-ws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/renew-ws.sh" && chmod +x renew-ws
-wget -O del-ws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/del-ws.sh" && chmod +x del-ws
-wget -O cek-ws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/cek-ws.sh" && chmod +x cek-ws
+wget -O add-ws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/add-ws.sh" && chmod +x add-ws
+wget -O trialvmess "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/trialvmess.sh" && chmod +x trialvmess
+wget -O renew-ws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/renew-ws.sh" && chmod +x renew-ws
+wget -O del-ws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/del-ws.sh" && chmod +x del-ws
+wget -O cek-ws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/cek-ws.sh" && chmod +x cek-ws
 
 # vless
-wget -O add-vless "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/add-vless.sh" && chmod +x add-vless
-wget -O trialvless "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/trialvless.sh" && chmod +x trialvless
+wget -O add-vless "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/add-vless.sh" && chmod +x add-vless
+wget -O trialvless "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/trialvless.sh" && chmod +x trialvless
 wget -O renew-vless "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/renew-vless.sh" && chmod +x renew-vless
-wget -O del-vless "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/del-vless.sh" && chmod +x del-vless
-wget -O cek-vless "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/cek-vless.sh" && chmod +x cek-vless
+wget -O del-vless "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/del-vless.sh" && chmod +x del-vless
+wget -O cek-vless "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/cek-vless.sh" && chmod +x cek-vless
 
 # trojan
-wget -O add-tr "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/add-tr.sh" && chmod +x add-tr
+wget -O add-tr "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/add-tr.sh" && chmod +x add-tr
 wget -O trialtrojan "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/trialtrojan.sh" && chmod +x trialtrojan
-wget -O del-tr "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/del-tr.sh" && chmod +x del-tr
-wget -O renew-tr "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/renew-tr.sh" && chmod +x renew-tr
-wget -O cek-tr "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/cek-tr.sh" && chmod +x cek-tr
+wget -O del-tr "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/del-tr.sh" && chmod +x del-tr
+wget -O renew-tr "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/renew-tr.sh" && chmod +x renew-tr
+wget -O cek-tr "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/cek-tr.sh" && chmod +x cek-tr
 
 # shadowsocks
-wget -O add-ssws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/add-ssws.sh" && chmod +x add-ssws
-wget -O trialssws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/trialssws.sh" && chmod +x trialssws
-wget -O del-ssws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/del-ssws.sh" && chmod +x del-ssws
-wget -O renew-ssws "https://raw.githubusercontent.com/Hubdarkweb/Lenin/master/xray/renew-ssws.sh" && chmod +x renew-ssws
+wget -O add-ssws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/add-ssws.sh" && chmod +x add-ssws
+wget -O trialssws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/trialssws.sh" && chmod +x trialssws
+wget -O del-ssws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/del-ssws.sh" && chmod +x del-ssws
+wget -O renew-ssws "https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/xray/renew-ssws.sh" && chmod +x renew-ssws
 
 
 sleep 0.5
