@@ -126,7 +126,7 @@ read -rp " input 1 or 2 : " dns
 if test $dns -eq 1; then
 wget https://raw.githubusercontent.com/hezpaty/HEZTECH-/main/ssh/cf && chmod +x cf && ./cf
 elif test $dns -eq 2; then
-read -rp "Enter Your Domain / masukan domain : " dom
+read -rp "Enter Your Domain : " dom
 echo "IP=$dom" > /var/lib/ipvps.conf
 echo "$dom" > /root/scdomain
 echo "$dom" > /etc/xray/scdomain
@@ -242,7 +242,7 @@ echo "   - Trojan gRPC              : 443" | tee -a log-install.txt
 echo "   - Shadowsocks gRPC         : 443" | tee -a log-install.txt
 echo ""
 echo "=============================Contact==============================" | tee -a log-install.txt
-echo "---------------------------t.me/networktweakerop-----------------------------" | tee -a log-install.txt
+echo "---------------------------t.me/hezpaty-----------------------------" | tee -a log-install.txt
 echo "==================================================================" | tee -a log-install.txt
 echo -e ""
 echo ""
